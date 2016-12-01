@@ -3,8 +3,8 @@ package stack
 import (
 	"testing"
 
+	. "github.com/golang-dds-and-algorithms/src/ds/stack"
 	. "github.com/smartystreets/goconvey/convey"
-	. "gitlab.com/golang-dds-and-algorithms/src/ds/stack"
 )
 
 const (
