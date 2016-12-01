@@ -1,10 +1,12 @@
 language: go
 
 before_install:
+ - pwd
  - chmod +x setup_dependencies.sh
  - ./setup_dependencies.sh
 
 install:
+ - pwd
  - chmod +x ./install-dependencies.sh
  - ./install-dependencies.sh
 
