@@ -1,5 +1,6 @@
 language: go
 
+target: ;
 #before_install:
  #- pwd
  #- chmod +x setup_dependencies.sh
