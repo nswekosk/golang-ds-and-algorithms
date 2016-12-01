@@ -1,6 +1,7 @@
 language: go
 
 install:
+ - git update-index --chmod=+x install-dependencies.sh
  - ./install-dependencies.sh
 
 script:
