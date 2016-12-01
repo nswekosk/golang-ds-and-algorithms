@@ -1,17 +1,9 @@
 language: go
 
 before_install:
- - export CURRENT_BUILD_PATH=$(pwd)
- - rm -rf $HOME/golang
- - rm -rf $HOME/gopath
+ - chmod +x setup_dependencies.sh
  - chmod +x install-dependencies.sh
- - mkdir -p $HOME/golang # for GOROOT (contains the Go binary & core packages)
- - mkdir -p $HOME/gopath # for GOPATH (contains code and external packages)
- - export GOROOT=$HOME/golang/go
- - export GOPATH=$HOME/gopath
- - export PATH=$PATH:$GOROOT/bin
- - export PATH=$PATH:$GOPATH/bin
- - echo $PATH
+ - ./setup_dependencies.sh
 
 install:
  - ./install-dependencies.sh
