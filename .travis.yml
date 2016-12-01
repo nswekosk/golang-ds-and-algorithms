@@ -2,10 +2,10 @@ language: go
 
 before_install:
  - chmod +x setup_dependencies.sh
- - chmod +x install-dependencies.sh
  - ./setup_dependencies.sh
 
 install:
+ - chmod +x install-dependencies.sh
  - ./install-dependencies.sh
 
 script:
