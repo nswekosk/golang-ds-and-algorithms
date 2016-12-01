@@ -3,7 +3,7 @@ package stack
 import (
 	"testing"
 
-	. "github.com/golang-dds-and-algorithms/src/ds/stack"
+	. "github.com/golang-ds-and-algorithms/src/ds/stack"
 	. "github.com/smartystreets/goconvey/convey"
 )
 
