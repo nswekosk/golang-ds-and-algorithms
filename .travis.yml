@@ -5,7 +5,7 @@ before_install:
  - ./setup_dependencies.sh
 
 install:
- - chmod +x install-dependencies.sh
+ - chmod +x ./install-dependencies.sh
  - ./install-dependencies.sh
 
 script:
