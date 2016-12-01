@@ -6,3 +6,7 @@ go:
 
 install:
  - ./install-dependencies.sh
+
+script:
+ - cd $CURRENT_BUILD_PATH
+ - go build
